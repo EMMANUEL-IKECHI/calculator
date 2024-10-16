@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    <main>
+        <div class="display-result">
+            
+        </div>
+        <div class="control-row">
+            <div class="control-row-history">
+                <button class="history">HISTORY</button>
+                <button><img src="" alt=""></button>
+                <button><img src="" alt=""></button>
+            </div>
+                <button class="backspace"><img src="" alt=""></button>
+        </div>
+        <div class="calculator-keys">
+            <button class="clear">C</button><button class="operator parantheses">()</button><button class="operator percentage" onclick="showNum('%')">%</button><button class="operator division" onclick="showNum('/')">/</button>
+            <button class="number 7"  onclick="showNum(7)">7</button><button class="number 8"  onclick="showNum(8)">8</button><button class="number 9" onclick="showNum(9)">9</button><button class="operator multiplication" onclick="showNum('*')">X</button>
+            <button class="number 4"  onclick="showNum(4)">4</button><button class="number 5"  onclick="showNum(5)">5</button><button class="number 6" onclick="showNum(6)">6</button><button class="operator subtraction" onclick="showNum('-')">-</button>
+            <button class="number 1"  onclick="showNum(1)">1</button><button class="number 2" onclick="showNum(2)">2</button><button class="number 3" onclick="showNum(3)">3</button><button class="operator subtraction" onclick="showNum('+')">+</button>
+            <button class="operator reverse-sign">+/-</button><button class="number 0" onclick="showNum(0)">0</button><button class="decimal">.</button><button class="operator equals">=</button>
+        </div>
+    </main>
+
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
